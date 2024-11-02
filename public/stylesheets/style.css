@@ -1,8 +1,36 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* Global Styles */
+html {
+  margin: 0;
+  padding: 0;
 }
 
-a {
-  color: #00B7FF;
+body {
+  
+}
+
+header h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Homepage */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div img {
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
 }
