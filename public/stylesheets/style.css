@@ -16,6 +16,10 @@ h2 {
   text-align: center;
 }
 
+.siteScreenshot {
+  width: 35%;
+}
+
 /* Homepage */
 .column {
   float: left;
