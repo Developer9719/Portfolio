@@ -73,6 +73,14 @@ nav {
 }
 
 /* Professional Links */
+.links {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.links img {
+  width: 20vw;
+}
 
 /* Projects */
 .Projects .column {
