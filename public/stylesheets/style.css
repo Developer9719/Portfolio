@@ -28,18 +28,18 @@ h1 {
 }
 
 /* Nav Styles */
-li {
+nav li {
   list-style-type: none;
   margin-left: 2vw;
   padding-bottom: 2vh;
 }
 
-li a {
+nav li a {
   text-decoration: none;
   color: rgba(255,255,255,255 );
 }
 
-ul {
+nav ul {
   display: flex;
   padding: 0;
   margin-left: auto;
@@ -48,21 +48,12 @@ ul {
 }
 
 nav {
+  width: 50vw;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 /* Portfolio Page */
-h2 {
-  text-align: center;
-}
-
-.siteScreenshot {
-  width: 35%;
-}
-
-/* Homepage */
 .column {
   float: left;
   width: 50%;
@@ -75,8 +66,36 @@ h2 {
   clear: both;
 }
 
-div img {
-  height: 50vh;
-  margin-left: auto;
-  margin-right: auto;
+.Portfolio img {
+  width: 80%;
+  height: 50%;
+  padding-left: 5vw;
+}
+
+/* Professional Links */
+
+/* Projects */
+.Projects .column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.Projects .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Projects .project {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.Projects .project img {
+  width: 33vw;
+}
+
+.Projects .project h2 {
+  text-align: center;
 }
