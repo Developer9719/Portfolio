@@ -28,18 +28,18 @@ h1 {
 }
 
 /* Nav Styles */
-li {
+nav li {
   list-style-type: none;
   margin-left: 2vw;
   padding-bottom: 2vh;
 }
 
-li a {
+nav li a {
   text-decoration: none;
   color: rgba(255,255,255,255 );
 }
 
-ul {
+nav ul {
   display: flex;
   padding: 0;
   margin-left: auto;
@@ -53,10 +53,10 @@ nav {
   margin-right: auto;
 }
 
-/* Portfolio Page */
-
-
 /* Homepage */
+
+
+/* Portfolio Page */
 .column {
   float: left;
   width: 50%;
@@ -69,8 +69,8 @@ nav {
   clear: both;
 }
 
-div img {
-  height: 50vh;
-  margin-left: auto;
-  margin-right: auto;
+.Portfolio img {
+  width: 80%;
+  height: 50%;
+  padding-left: 5vw;
 }
