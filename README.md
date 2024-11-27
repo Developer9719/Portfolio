@@ -1,6 +1,9 @@
 # CHANGELOG
-- Set up a admin side of website with admin only pages
-    - Create a cross-platform video playlist feature here
+- November 27, 2024:
+    
 
 # Things to Do
 - Make website responsive
+- Set up a admin side of website with admin only pages
+    - Create a cross-platform video playlist feature here
+- Update site to be rendered properly on all devices
