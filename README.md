@@ -1,5 +1,6 @@
 # CHANGELOG
-- November 29, 2024:
+- December 18, 2024: Mobile First Redesign Completed
+    - Some updates to styles needed but the functionality is working
     
 
 # Things to Do
