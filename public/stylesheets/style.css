@@ -16,6 +16,16 @@ header a {
 }
 
 /* Portfolio */
+.diplomaImage {
+    width: 80vw;
+    margin: 5px auto 5px auto;
+    align-items: center;
+    display: flex;
+}
+
+.skills {
+    text-align: center;
+}
 
 /* Projects */
 
