@@ -23,9 +23,26 @@ header a {
     display: flex;
 }
 
-.skills {
-    text-align: center;
+@media screen and (min-width: 450px) {
+    .diplomaImage {
+        width: 50vw;
+    }
 }
+
+@media screen and (min-width: 450px) {
+    .column {
+        float: left;
+        width: 50%;
+        column-gap: 5px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+  }
 
 /* Projects */
 .siteScreenshot {
