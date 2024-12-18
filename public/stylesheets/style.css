@@ -36,3 +36,13 @@ header a {
 }
 
 /* Links */
+.linkImage {
+    width: 90vw;
+    margin: 5px auto 5px auto;
+    align-items: center;
+    display: flex;
+}
+
+.Links h1 {
+    text-align: center;
+}
